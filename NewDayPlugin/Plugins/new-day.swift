@@ -23,17 +23,17 @@ extension NewDay {
     try solution(day).write(
       to: solutionFile(day),
       atomically: true,
-      encoding: .utf8
+      encoding: .utf8,
     )
     try tests(day).write(
       to: testFile(day),
       atomically: true,
-      encoding: .utf8
+      encoding: .utf8,
     )
     try "".write(
       to: dataFile(day),
       atomically: true,
-      encoding: .utf8
+      encoding: .utf8,
     )
   }
 }
@@ -42,14 +42,14 @@ extension NewDay {
   func solutionFile(_ day: String) -> URL {
     URL(
       string: "Sources/Day\(day).swift",
-      relativeTo: .currentDirectory()
+      relativeTo: .currentDirectory(),
     )!
   }
 
   func testFile(_ day: String) -> URL {
     URL(
       string: "Tests/Day\(day)Tests.swift",
-      relativeTo: .currentDirectory()
+      relativeTo: .currentDirectory(),
     )!
   }
 
@@ -57,7 +57,7 @@ extension NewDay {
     URL(
       string:
       "Sources/Data/day\(day).txt",
-      relativeTo: .currentDirectory()
+      relativeTo: .currentDirectory(),
     )!
   }
 

@@ -80,7 +80,7 @@ extension AdventDay {
     let dataURL = Bundle.module.url(
       forResource: dataFilename,
       withExtension: "txt",
-      subdirectory: "Data"
+      subdirectory: "Data",
     )
 
     guard let dataURL,

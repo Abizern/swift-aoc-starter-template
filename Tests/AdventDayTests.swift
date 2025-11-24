@@ -5,7 +5,7 @@ import Testing
 @Suite("Package Tests")
 struct AdventDayTests {
   @Test("Validate that data can be loaded")
-  func testInitData() throws {
+  func initData() throws {
     let challenge = Day00()
     #expect(challenge.data.starts(with: "4514"))
   }

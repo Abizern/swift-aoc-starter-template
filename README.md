@@ -10,7 +10,7 @@ building Advent of Code solutions.
 
 Based on the [swift-aoc-starter-example](https://github.com/apple/swift-aoc-starter-example/) provided by Apple
 
-### Major changes from the forkeed template
+### Major changes from the forked template
 
 - Swift 6 (Have fun with Sendable Types)
 - Swift Testing instead of XCTest
@@ -53,13 +53,17 @@ it runs the most recent challenge.
 The `AdventOfCode.swift` file controls which day's challenge is run
 with `swift run`. By default that runs the most recent challenge in the package.
 
-To supply command line arguments use `swift run AdventOfCode`. For example,
-`swift run -c release AdventOfCode --benchmark 3` builds the binary with full
-optimizations, and benchmarks the challenge for day 3.
+To supply command line arguments use `swift run AdventOfCode`. For example:
 
-## Linting and Formatting
+```shell
+swift run -c release AdventOfCode --benchmark 3
+```
 
-I`m trying out 2 space indents, so watch out for that!
+builds the binary with full optimizations, and benchmarks the challenge for day 3.
+
+## Formatting and Linting
+
+I`m trying out 2 space indents, enforced by the `.editorconfig` file.
 
 I use Swiftformat so this works for me:
 

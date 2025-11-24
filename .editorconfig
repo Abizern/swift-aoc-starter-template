@@ -1,0 +1,39 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# Top-level configuration file
+root = true
+
+# Default: spaces, 2-space indentation
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C/C++/ObjC
+[*.{c,cpp,h,hpp,m,mm}]
+indent_size = 2
+
+# Swift
+[*.swift]
+indent_size = 2
+
+# Python — PEP 8: 4 spaces
+[*.py]
+indent_size = 4
+
+# Makefiles require tabs
+[Makefile]
+indent_style = tab
+
+# Text-like files — don't trim trailing whitespace
+[*.{md,markdown,org}]
+trim_trailing_whitespace = false
+
+# Org-mode needs strict tab width
+[*.org]
+indent_style = space
+tab_width = 8

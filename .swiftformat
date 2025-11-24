@@ -2,8 +2,8 @@
 --allman false
 --anonymousforeach convert
 --assetliterals visual-width
---asynccapturing 
---beforemarks 
+--asynccapturing
+--beforemarks
 --binarygrouping none
 --callsiteparen default
 --categorymark "MARK: %c"
@@ -22,6 +22,7 @@
 --emptybraces no-space
 --enumnamespaces always
 --enumthreshold 0
+--exclude Materials
 --exponentcase lowercase
 --exponentgrouping disabled
 --extensionacl on-declarations
@@ -30,7 +31,7 @@
 --fractiongrouping disabled
 --fragment false
 --funcattributes preserve
---generictypes 
+--generictypes
 --groupblanklines true
 --groupedextension "MARK: %c"
 --guardelse auto
@@ -45,52 +46,51 @@
 --inferredtypes always
 --initcodernil false
 --inlinedforeach ignore
---lifecycle 
+--lifecycle
 --lineaftermarks true
 --linebreaks lf
 --markcategories true
 --markextensions always
 --marktypes always
 --maxwidth none
---modifierorder 
---nevertrailing 
+--modifierorder
+--nevertrailing
 --nilinit remove
---noncomplexattrs 
---nospaceoperators 
---nowrapoperators 
+--noncomplexattrs
+--nospaceoperators
+--nowrapoperators
 --octalgrouping none
 --operatorfunc spaced
 --organizationmode visibility
 --organizetypes actor,class,enum,struct
 --patternlet inline
---preservedecls 
+--preservedecls
 --preservedsymbols Package
 --propertytypes infer-locals-only
 --ranges spaced
 --self remove
---selfrequired 
+--selfrequired
 --semicolons never
 --shortoptionals except-properties
 --smarttabs enabled
 --someany true
---sortedpatterns 
---sortswiftuiprops disabled
+--sortedpatterns
 --storedvarattrs preserve
 --stripunusedargs always
 --structthreshold 0
 --tabwidth unspecified
---throwcapturing 
+--throwcapturing
 --timezone system
---trailingclosures 
+--trailingclosures
 --trimwhitespace always
 --typeattributes preserve
 --typeblanklines remove
 --typedelimiter space-after
 --typemark "MARK: - %t"
---typemarks 
---typeorder 
---visibilitymarks 
---visibilityorder 
+--typemarks
+--typeorder
+--visibilitymarks
+--visibilityorder
 --voidtype void
 --wraparguments before-first
 --wrapcollections before-first

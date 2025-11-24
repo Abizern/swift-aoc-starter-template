@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 6.2
 
 import PackageDescription
 
@@ -7,7 +7,7 @@ let package = Package(
   products: [
     .plugin(
       name: "new-day",
-      targets: ["new-day"]
+      targets: ["new-day"],
     ),
   ],
   targets: [
@@ -16,9 +16,9 @@ let package = Package(
       capability: .command(
         intent: .custom(
           verb: "new-day",
-          description: "Create template files for solutions and tests, and an empty data file for a new day."
-        )
-      )
+          description: "Create template files for solutions and tests, and an empty data file for a new day.",
+        ),
+      ),
     ),
-  ]
+  ],
 )
