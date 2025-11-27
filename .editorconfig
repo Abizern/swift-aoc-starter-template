@@ -13,17 +13,9 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# C/C++/ObjC
-[*.{c,cpp,h,hpp,m,mm}]
-indent_size = 2
-
 # Swift
 [*.swift]
 indent_size = 2
-
-# Python — PEP 8: 4 spaces
-[*.py]
-indent_size = 4
 
 # Makefiles require tabs
 [Makefile]
@@ -37,3 +29,7 @@ trim_trailing_whitespace = false
 [*.org]
 indent_style = space
 tab_width = 8
+
+# Input files shouldn't have final newlines
+[Sources/Data/**.txt]
+insert_final_newline = false
