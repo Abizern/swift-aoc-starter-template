@@ -61,6 +61,12 @@ swift run -c release AdventOfCode --benchmark 3
 
 builds the binary with full optimizations, and benchmarks the challenge for day 3.
 
+## Input Files
+
+The creator of Advent of Code requests that personal input files not be added to repositories, so they must be added manually.
+
+Add them to `Sources/Data/= as =DayXX.txt`.
+
 ## Formatting and Linting
 
 I`m trying out 2 space indents, enforced by the `.editorconfig` file.
