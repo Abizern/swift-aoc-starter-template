@@ -1,3 +1,4 @@
-*.txt
-!Note.txt
+# Input files are not added to the repository as requested by AoC's creator
+
+Day*.txt
 !day00.txt
